@@ -1,0 +1,381 @@
+/* Homepage Code */
+body{
+  margin:0px;
+  padding: 0;
+  font-family: Arial;
+}
+nav{
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height: 100px;
+  padding: 10px 90px;
+  box-sizing: border-box;
+  background: rgba(0,0,0,0.6);
+  border-bottom: 1px solid #fff;
+}
+nav .logo{
+  padding: 22px 20px;
+  height: 80px;
+  float:left;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color:#fff;
+  text-decoration: none;
+}
+nav ul{
+  list-style: none;
+  float: right;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav ul li a{
+  line-height: 80px;
+  color: #fff;
+  padding: 12px 30px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+nav ul li a:hover{
+  background: rgba(0,0,0,0.7);
+  border-radius: 6px;
+}
+section{
+  width: 100%;
+  height: 200vh;
+  background-size: cover;
+  background-position: center;
+}
+
+img{
+  max-width:100% ;
+  max-height:100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+
+.home-about {
+  padding: 4em 0;
+  max-width: 75%;
+  margin: 0 auto;
+  padding-right: 470px;
+  padding-bottom: 100px;
+}
+
+.more-stuff-grid {
+  background: #f4f4f4;
+  padding: 2em 0;
+  display: grid;
+  grid-gap: 2em;
+  grid-template-columns: minmax(25em, 25fr) repeat(3, minmax(400px, 400px)) minmax(
+      25em,
+      25fr
+    );
+  padding-left: 300px;
+}
+
+.home-about2{
+  text-align: center;
+}
+.home-about22{
+  position: absolute;
+  padding-left: 200px;
+}
+
+
+
+
+
+/* Nikkah code */
+
+.video{
+  width: 92%;
+  height: 750px;
+  margin: 50px;
+
+}
+
+.time{
+
+  text-align: center;
+  margin-top: 8%;
+  letter-spacing: 5px;
+  font-weight: bold;
+  font-size: 65px;
+  text-transform: uppercase;
+}
+body{
+  background: lightgrey;
+}
+.wrapper{
+
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  height: 240px;
+}
+.line-area{
+  display: block;
+  width: 70%;
+  height: 5px;
+  background: #262626;
+  position: absolute;
+  top: 49%;
+  left: 15%;
+}
+.wrapper .timeline-area{
+  height: 100%;
+}
+
+.single-item{
+  width: 10%;
+  display: inline-block;
+  position: relative;
+  height: 100%;
+  margin-right: 60px;
+  transition: width .5s;
+  z-index: 1;
+  background: #000;
+}
+
+.single-item > span{
+  height: 32px;
+  display: block;
+  font-weight: bold;
+  /* position: absolute; */
+  /* top: 100%; */
+  margin-top: -8px;
+  width: 100%;
+  cursor: pointer;
+
+}
+
+.single-item > span:before{
+  content: ' ';
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: #000;
+  margin: 0 auto 8px;
+  border-radius: 50%;
+}
+
+img-area{
+  display: center;
+  position: absolute;
+  left: 0;
+  top:70%;
+  margin-top: -50%;
+  width: 100%;
+}
+.img-area a{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+img-area a img{
+  border-radius: 50%;
+  top:0;
+  left: 0;
+  bottom: 0;
+  right:0;
+  max-height: 100%;
+  max-width: 100%;
+  border: 10px solid #fff;
+}
+.img-area a span{
+  position: absolute;
+  width: 320%;
+  margin-left: -72%;
+  bottom:-150px;
+  left: 0;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  color: #000;
+  font-weight:bold;
+}
+.img-area a span:after{
+  margin-left: 5px;
+}
+.single-item.active{
+  width: 10%;
+}
+.single-item.active .img-area{
+  display: block;
+}
+
+
+/* Menhdi code */
+
+.listtitle{
+  text-align: center;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 80px;
+}
+
+.menpic{
+  width:96%;
+}
+
+.words{
+  text-align: center;
+  font-weight: bolder;
+  font-size: larger;
+  list-style: none;
+}
+
+.words2{
+
+  font-weight: bolder;
+  font-size: larger;
+  list-style: none;
+  text-align: center;
+}
+
+.words3{
+
+  font-weight: bolder;
+  font-size: larger;
+  list-style: none;
+  text-align: center;
+}
+.words4{
+
+  font-weight: bolder;
+  font-size: larger;
+  list-style: none;
+  text-align: center;
+}
+
+
+
+
+/* Barat code */
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+/* Walima code */
+
+.pur{
+  background: lavender;
+}
+
+#side{
+  font-weight: bolder;
+}
+
+.container{
+  width: 100%;
+  height: 50vh;
+  background: #3c5077;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn{
+  padding: 10px 60px;
+  margin: 10px;
+  background: #fff;
+  border:0;
+  outline: none;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: 500;
+  border-radius: 30px;
+  object-position: center;
+}
+
+.alert-title{
+  font-family: "Poppins", sans-serif;
+  padding-left: 20px;
+}
+.top-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.bottom{
+  background: #000;
+  height: 100px;
+  width: 100%;
+}
